@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="spinner" type="id" />
+    <item name="events_texts" type="id" />
+    <item name="property1" type="id" />
+    <item name="property2" type="id" />
+</resources>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Wellcome Page</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+
+    <string name="details_description">    Login Screen: This screen allows users to authenticate themselves by entering their username and password. Upon successful login, users gain access to the app\'s main features.\n\n
+
+    Dashboard Screen: After logging in, users are directed to the Dashboard Screen, where they can view a comprehensive list of entities retrieved from the API. This screen provides a summary and overview of the available entities.\n\n
+
+    Details Screen: When a user selects an entity from the Dashboard, they are taken to the Details Screen. This screen presents in-depth information about the selected entity, including all relevant details and data.</string>
+
+
+</resources>

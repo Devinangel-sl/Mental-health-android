@@ -1,0 +1,43 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ProgressBar
+            android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+        <!-- TextView to Display Events -->
+        <TextView
+            android:id="@+id/events_texts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show Events"
+            android:textSize="16sp"
+            android:paddingTop="20dp" />
+
+        <Button
+            android:id="@+id/DetailPage"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/black"
+            android:text="@string/details_description"
+            android:layout_marginBottom="16dp"
+            android:textSize="18sp"
+            app:cornerRadius="8dp" />
+
+    </LinearLayout>
+</ScrollView>
+
+
